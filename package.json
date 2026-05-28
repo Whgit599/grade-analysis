@@ -1,0 +1,27 @@
+{
+  "name": "grade-analysis",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server/index.js",
+    "start": "node server/index.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "cors": "^2.8.6",
+    "echarts": "^6.0.0",
+    "express": "^5.2.1",
+    "vue": "^3.5.30",
+    "vue-echarts": "^8.0.1",
+    "vue-router": "^5.0.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.5",
+    "vite": "^8.0.1"
+  }
+}
